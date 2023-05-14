@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif+Caption&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-image: linear-gradient(to right, #191970, #000080, #00008B);
+}
+
+.navbar{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    /* border: 1px solid white; */
+}
+
+ul{
+    /* border: 1px solid blue; */
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    font-family: 'PT Serif Caption', serif;
+    padding: 15px;
+    
+}
+
+
+
+.menu{
+    text-decoration: none;
+    color: white;
+}
+
+.menu:hover{
+    color: #836FFF;
+}
+
+
+header{
+    /* border: 1px solid white; */
+    text-align: center;
+    margin-bottom: 0;
+    padding-top: 50px;
+    margin-left: 2%;
+}
+
+header img{
+    transition: all 0.5s;
+    cursor: pointer;
+    border-radius: 100px;
+    border: 5px solid #836FFF;
+}
+
+header img:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+.nome{
+    color: #836FFF;
+    font-size: 30px;
+    margin-top: 0;
+    margin-left: 5%;
+}
+
+section h2{
+    color: white;
+    margin-left: 5%;
+}
+
+.informacoes{
+    color: rgb(219, 217, 217);
+    margin-left: 5%;
+}
+
+.seta{
+    background: none;
+    border: 0;
+    position: fixed;
+    right: 60px;
+    top: 80px;
+    visibility: hidden;
+}
+
+.seta.visible{
+    visibility: visible;
+}
+
+footer{
+    display: flex;
+    flex-flow: row wrap;
+    /* border: 1px solid black; */
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+footer div{
+    /* border: 1px solid rgb(47, 255, 220); */
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+footer a p{
+    color: white;
+    /* border: 1px solid rgb(0, 0, 0); */
+    flex: 10%;
+}
+
+footer a{
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+footer a:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.icons{
+    height: 30px;
+    margin-left: 20px;
+    margin-right: 5px;
+}
+
+
+h1{
+    color: white;
+}
+
+h1{
+    margin-left: 5%;
+}
+
